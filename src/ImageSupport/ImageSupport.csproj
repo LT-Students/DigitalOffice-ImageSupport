@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>LT.DigitalOffice.ImageSupport</AssemblyName>
+    <RootNamespace>LT.DigitalOffice.ImageSupport</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

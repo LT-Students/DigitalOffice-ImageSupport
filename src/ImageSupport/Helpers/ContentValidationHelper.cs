@@ -1,12 +1,12 @@
-﻿using ImageSupport.Constants;
-using ImageSupport.Helpers.Interfaces;
+﻿using LT.DigitalOffice.ImageSupport.Constants;
+using LT.DigitalOffice.ImageSupport.Helpers.Interfaces;
 using SixLabors.ImageSharp;
 using Svg;
 using System;
 using System.IO;
 using Drawing = System.Drawing;
 
-namespace ImageSupport.Helpers
+namespace LT.DigitalOffice.ImageSupport.Helpers
 {
   public class ContentValidationHelper : IContentValidationHelper
   {

@@ -1,5 +1,5 @@
-﻿using ImageSupport.Constants;
-using ImageSupport.Helpers.Interfaces;
+﻿using LT.DigitalOffice.ImageSupport.Constants;
+using LT.DigitalOffice.ImageSupport.Helpers.Interfaces;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using Svg;
@@ -7,7 +7,7 @@ using System;
 using Drawing = System.Drawing;
 using System.IO;
 
-namespace ImageSupport.Helpers
+namespace LT.DigitalOffice.ImageSupport.Helpers
 {
   public class ImageResizeHelper : IImageResizeHelper
   {

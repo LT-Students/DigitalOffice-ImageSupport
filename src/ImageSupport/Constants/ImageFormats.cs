@@ -6,7 +6,7 @@ using SixLabors.ImageSharp.Formats.Png;
 using SixLabors.ImageSharp.Formats.Tga;
 using System.Collections.Generic;
 
-namespace ImageSupport.Constants
+namespace LT.DigitalOffice.ImageSupport.Constants
 {
   public static class ImageFormats
   {

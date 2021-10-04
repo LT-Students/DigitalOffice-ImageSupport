@@ -1,6 +1,6 @@
 ﻿using LT.DigitalOffice.Kernel.Attributes;
 
-namespace ImageSupport.Helpers.Interfaces
+namespace LT.DigitalOffice.ImageSupport.Helpers.Interfaces
 {
   [AutoInject]
   public interface IImageResizeHelper
