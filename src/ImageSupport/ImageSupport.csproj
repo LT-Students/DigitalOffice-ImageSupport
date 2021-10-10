@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LT.DigitalOffice.Kernel" Version="1.1.45" />
+    <PackageReference Include="LT.DigitalOffice.Kernel" Version="1.1.47" />
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
     <PackageReference Include="Svg" Version="3.3.0" />
   </ItemGroup>
