@@ -35,7 +35,7 @@ jobs:
         run: dotnet test --no-restore --verbosity normal
 
       - name: Pack nuget
-        run: nuget pack LT.DigitalOffice.Kernel.nuspec -Symbols -SymbolPackageFormat snupkg -OutputDirectory ./artifacts
+        run: nuget pack LT.DigitalOffice.ImageSupport.nuspec -Symbols -SymbolPackageFormat snupkg -OutputDirectory ./artifacts
 
       - name: Push nuget
         run: dotnet nuget push ./artifacts/**.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.NUGET}}
