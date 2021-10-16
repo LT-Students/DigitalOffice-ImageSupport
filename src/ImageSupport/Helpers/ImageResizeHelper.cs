@@ -89,7 +89,7 @@ namespace LT.DigitalOffice.ImageSupport.Helpers
 
     #endregion
 
-    public async Task<(bool isSuccess, string resizedContent, string extension)> Resize(string inputBase64, string extension, int resizeMinValue = 150)
+    public async Task<(bool isSuccess, string resizedContent, string extension)> ResizeAsync(string inputBase64, string extension, int resizeMinValue = 150)
     {
       return string.Equals(extension, ImageFormats.svg, StringComparison.OrdinalIgnoreCase)
         ? await SvgResize(inputBase64, extension, resizeMinValue)
