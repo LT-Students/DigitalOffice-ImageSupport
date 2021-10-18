@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the Digital Office project.</description>
     <releaseNotes>
-      1.0.0 - Initial version. Added resize and validation helpers.
+      1.0.1 - Rename Resize method to ResizeAsync.
 
       Previous versions:
+      1.0.0 - Initial version. Added resize and validation helpers.
 
     </releaseNotes>
     <copyright>Copyright © LT Digital Office</copyright>
